@@ -1,2 +1,4 @@
 # apache-storm-data-pipeline
-for cv
+apache storm
+apache zookeeper
+aapache maven
