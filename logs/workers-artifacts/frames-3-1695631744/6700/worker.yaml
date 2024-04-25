@@ -1,0 +1,4 @@
+worker-id: d8c05c99-bf46-40a7-acf9-836ef5b2c763
+logs.users: []
+logs.groups: []
+topology.submitter.user: engineer

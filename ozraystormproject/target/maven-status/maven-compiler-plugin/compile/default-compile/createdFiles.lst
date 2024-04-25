@@ -1,0 +1,11 @@
+com\stormproject\SocketConnection.class
+com\stormproject\ImageBolt.class
+com\stormproject\MinIOBolt.class
+com\stormproject\ImageTopology.class
+com\stormproject\getProperties.class
+com\stormproject\ImageSpout.class
+com\stormproject\UploadMinIO.class
+com\stormproject\jniGetShm.class
+com\stormproject\HashMapObj.class
+com\stormproject\memoryToJPG.class
+com\stormproject\ImgTypeList.class

@@ -1,0 +1,242 @@
+2023/08/22-17:22:40.905186 2fcc RocksDB version: 5.18.4
+2023/08/22-17:22:40.905249 2fcc Git sha rocksdb_build_git_sha:@b9a4a10659969c71e6f6eab4e4bae8c36ede919f@
+2023/08/22-17:22:40.905272 2fcc Compile date Mar 11 2020
+2023/08/22-17:22:40.905288 2fcc DB SUMMARY
+2023/08/22-17:22:40.905396 2fcc CURRENT file:  CURRENT
+2023/08/22-17:22:40.905407 2fcc IDENTITY file:  IDENTITY
+2023/08/22-17:22:40.905437 2fcc MANIFEST file:  MANIFEST-000001 size: 13 Bytes
+2023/08/22-17:22:40.905447 2fcc SST files in C:\apache-storm-2.5.0\storm_rocks dir, Total Num: 0, files: 
+2023/08/22-17:22:40.905455 2fcc Write Ahead Log file in C:\apache-storm-2.5.0\storm_rocks: 000003.log size: 19 ; 
+2023/08/22-17:22:40.905463 2fcc                         Options.error_if_exists: 0
+2023/08/22-17:22:40.905584 2fcc                       Options.create_if_missing: 1
+2023/08/22-17:22:40.905590 2fcc                         Options.paranoid_checks: 1
+2023/08/22-17:22:40.905592 2fcc                                     Options.env: 0000019603A6C650
+2023/08/22-17:22:40.905595 2fcc                                Options.info_log: 000001960350F0D0
+2023/08/22-17:22:40.905597 2fcc                Options.max_file_opening_threads: 16
+2023/08/22-17:22:40.905600 2fcc                              Options.statistics: 0000000000000000
+2023/08/22-17:22:40.905602 2fcc                               Options.use_fsync: 0
+2023/08/22-17:22:40.905605 2fcc                       Options.max_log_file_size: 0
+2023/08/22-17:22:40.905607 2fcc                  Options.max_manifest_file_size: 1073741824
+2023/08/22-17:22:40.905610 2fcc                   Options.log_file_time_to_roll: 0
+2023/08/22-17:22:40.905612 2fcc                       Options.keep_log_file_num: 1000
+2023/08/22-17:22:40.905615 2fcc                    Options.recycle_log_file_num: 0
+2023/08/22-17:22:40.905617 2fcc                         Options.allow_fallocate: 1
+2023/08/22-17:22:40.905619 2fcc                        Options.allow_mmap_reads: 0
+2023/08/22-17:22:40.905622 2fcc                       Options.allow_mmap_writes: 0
+2023/08/22-17:22:40.905624 2fcc                        Options.use_direct_reads: 0
+2023/08/22-17:22:40.905627 2fcc                        Options.use_direct_io_for_flush_and_compaction: 0
+2023/08/22-17:22:40.905629 2fcc          Options.create_missing_column_families: 0
+2023/08/22-17:22:40.905631 2fcc                              Options.db_log_dir: 
+2023/08/22-17:22:40.905634 2fcc                                 Options.wal_dir: C:\apache-storm-2.5.0\storm_rocks
+2023/08/22-17:22:40.905637 2fcc                Options.table_cache_numshardbits: 6
+2023/08/22-17:22:40.905639 2fcc                      Options.max_subcompactions: 1
+2023/08/22-17:22:40.905641 2fcc                  Options.max_background_flushes: -1
+2023/08/22-17:22:40.905644 2fcc                         Options.WAL_ttl_seconds: 0
+2023/08/22-17:22:40.905646 2fcc                       Options.WAL_size_limit_MB: 0
+2023/08/22-17:22:40.905649 2fcc             Options.manifest_preallocation_size: 4194304
+2023/08/22-17:22:40.905651 2fcc                     Options.is_fd_close_on_exec: 1
+2023/08/22-17:22:40.905654 2fcc                   Options.advise_random_on_open: 1
+2023/08/22-17:22:40.905656 2fcc                    Options.db_write_buffer_size: 0
+2023/08/22-17:22:40.905658 2fcc                    Options.write_buffer_manager: 000001960391A6E0
+2023/08/22-17:22:40.905661 2fcc         Options.access_hint_on_compaction_start: 1
+2023/08/22-17:22:40.905663 2fcc  Options.new_table_reader_for_compaction_inputs: 0
+2023/08/22-17:22:40.905666 2fcc           Options.random_access_max_buffer_size: 1048576
+2023/08/22-17:22:40.905668 2fcc                      Options.use_adaptive_mutex: 0
+2023/08/22-17:22:40.905671 2fcc                            Options.rate_limiter: 0000000000000000
+2023/08/22-17:22:40.905673 2fcc     Options.sst_file_manager.rate_bytes_per_sec: 0
+2023/08/22-17:22:40.905676 2fcc                       Options.wal_recovery_mode: 2
+2023/08/22-17:22:40.905678 2fcc                  Options.enable_thread_tracking: 0
+2023/08/22-17:22:40.905681 2fcc                  Options.enable_pipelined_write: 0
+2023/08/22-17:22:40.905700 2fcc         Options.allow_concurrent_memtable_write: 1
+2023/08/22-17:22:40.905705 2fcc      Options.enable_write_thread_adaptive_yield: 1
+2023/08/22-17:22:40.905707 2fcc             Options.write_thread_max_yield_usec: 100
+2023/08/22-17:22:40.905709 2fcc            Options.write_thread_slow_yield_usec: 3
+2023/08/22-17:22:40.905712 2fcc                               Options.row_cache: None
+2023/08/22-17:22:40.905714 2fcc                              Options.wal_filter: None
+2023/08/22-17:22:40.905717 2fcc             Options.avoid_flush_during_recovery: 0
+2023/08/22-17:22:40.905720 2fcc             Options.allow_ingest_behind: 0
+2023/08/22-17:22:40.905722 2fcc             Options.preserve_deletes: 0
+2023/08/22-17:22:40.905724 2fcc             Options.two_write_queues: 0
+2023/08/22-17:22:40.905727 2fcc             Options.manual_wal_flush: 0
+2023/08/22-17:22:40.905729 2fcc             Options.max_background_jobs: 2
+2023/08/22-17:22:40.905731 2fcc             Options.max_background_compactions: -1
+2023/08/22-17:22:40.905734 2fcc             Options.avoid_flush_during_shutdown: 0
+2023/08/22-17:22:40.905736 2fcc           Options.writable_file_max_buffer_size: 1048576
+2023/08/22-17:22:40.905739 2fcc             Options.delayed_write_rate : 16777216
+2023/08/22-17:22:40.905741 2fcc             Options.max_total_wal_size: 0
+2023/08/22-17:22:40.905744 2fcc             Options.delete_obsolete_files_period_micros: 21600000000
+2023/08/22-17:22:40.905746 2fcc                   Options.stats_dump_period_sec: 600
+2023/08/22-17:22:40.905749 2fcc                          Options.max_open_files: -1
+2023/08/22-17:22:40.905751 2fcc                          Options.bytes_per_sync: 0
+2023/08/22-17:22:40.905753 2fcc                      Options.wal_bytes_per_sync: 0
+2023/08/22-17:22:40.905756 2fcc       Options.compaction_readahead_size: 0
+2023/08/22-17:22:40.905758 2fcc Compression algorithms supported:
+2023/08/22-17:22:40.905761 2fcc 	kZSTD supported: 1
+2023/08/22-17:22:40.905764 2fcc 	kSnappyCompression supported: 1
+2023/08/22-17:22:40.905766 2fcc 	kBZip2Compression supported: 0
+2023/08/22-17:22:40.905769 2fcc 	kZlibCompression supported: 1
+2023/08/22-17:22:40.905772 2fcc 	kLZ4Compression supported: 1
+2023/08/22-17:22:40.905774 2fcc 	kXpressCompression supported: 0
+2023/08/22-17:22:40.905776 2fcc 	kLZ4HCCompression supported: 1
+2023/08/22-17:22:40.905779 2fcc 	kZSTDNotFinalCompression supported: 1
+2023/08/22-17:22:40.905790 2fcc Fast CRC32 supported: Supported on x86
+2023/08/22-17:22:40.906169 2fcc [db\version_set.cc:3508] Recovering from manifest file: MANIFEST-000001
+2023/08/22-17:22:40.906274 2fcc [db\column_family.cc:474] --------------- Options for column family [default]:
+2023/08/22-17:22:40.906287 2fcc               Options.comparator: leveldb.BytewiseComparator
+2023/08/22-17:22:40.906290 2fcc           Options.merge_operator: None
+2023/08/22-17:22:40.906292 2fcc        Options.compaction_filter: None
+2023/08/22-17:22:40.906295 2fcc        Options.compaction_filter_factory: None
+2023/08/22-17:22:40.906297 2fcc         Options.memtable_factory: SkipListFactory
+2023/08/22-17:22:40.906300 2fcc            Options.table_factory: BlockBasedTable
+2023/08/22-17:22:40.906320 2fcc            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (00000196039BFE90)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 1
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 000001960399FEC0
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 0
+  enable_index_compression: 1
+  block_align: 0
+2023/08/22-17:22:40.906341 2fcc        Options.write_buffer_size: 67108864
+2023/08/22-17:22:40.906345 2fcc  Options.max_write_buffer_number: 2
+2023/08/22-17:22:40.906348 2fcc          Options.compression: Snappy
+2023/08/22-17:22:40.906350 2fcc                  Options.bottommost_compression: Disabled
+2023/08/22-17:22:40.906353 2fcc       Options.prefix_extractor: rocksdb.CappedPrefix.38
+2023/08/22-17:22:40.906356 2fcc   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2023/08/22-17:22:40.906358 2fcc             Options.num_levels: 7
+2023/08/22-17:22:40.906360 2fcc        Options.min_write_buffer_number_to_merge: 1
+2023/08/22-17:22:40.906363 2fcc     Options.max_write_buffer_number_to_maintain: 0
+2023/08/22-17:22:40.906365 2fcc            Options.bottommost_compression_opts.window_bits: -14
+2023/08/22-17:22:40.906368 2fcc                  Options.bottommost_compression_opts.level: 32767
+2023/08/22-17:22:40.906370 2fcc               Options.bottommost_compression_opts.strategy: 0
+2023/08/22-17:22:40.906373 2fcc         Options.bottommost_compression_opts.max_dict_bytes: 0
+2023/08/22-17:22:40.906375 2fcc         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2023/08/22-17:22:40.906378 2fcc                  Options.bottommost_compression_opts.enabled: false
+2023/08/22-17:22:40.906380 2fcc            Options.compression_opts.window_bits: -14
+2023/08/22-17:22:40.906382 2fcc                  Options.compression_opts.level: 32767
+2023/08/22-17:22:40.906385 2fcc               Options.compression_opts.strategy: 0
+2023/08/22-17:22:40.906387 2fcc         Options.compression_opts.max_dict_bytes: 0
+2023/08/22-17:22:40.906390 2fcc         Options.compression_opts.zstd_max_train_bytes: 0
+2023/08/22-17:22:40.906392 2fcc                  Options.compression_opts.enabled: false
+2023/08/22-17:22:40.906394 2fcc      Options.level0_file_num_compaction_trigger: 4
+2023/08/22-17:22:40.906397 2fcc          Options.level0_slowdown_writes_trigger: 20
+2023/08/22-17:22:40.906399 2fcc              Options.level0_stop_writes_trigger: 36
+2023/08/22-17:22:40.906402 2fcc                   Options.target_file_size_base: 67108864
+2023/08/22-17:22:40.906404 2fcc             Options.target_file_size_multiplier: 1
+2023/08/22-17:22:40.906406 2fcc                Options.max_bytes_for_level_base: 268435456
+2023/08/22-17:22:40.906409 2fcc Options.level_compaction_dynamic_level_bytes: 0
+2023/08/22-17:22:40.906411 2fcc          Options.max_bytes_for_level_multiplier: 10.000000
+2023/08/22-17:22:40.906416 2fcc Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2023/08/22-17:22:40.906418 2fcc Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2023/08/22-17:22:40.906421 2fcc Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2023/08/22-17:22:40.906423 2fcc Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2023/08/22-17:22:40.906426 2fcc Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2023/08/22-17:22:40.906428 2fcc Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2023/08/22-17:22:40.906430 2fcc Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2023/08/22-17:22:40.906433 2fcc       Options.max_sequential_skip_in_iterations: 8
+2023/08/22-17:22:40.906435 2fcc                    Options.max_compaction_bytes: 1677721600
+2023/08/22-17:22:40.906438 2fcc                        Options.arena_block_size: 8388608
+2023/08/22-17:22:40.906440 2fcc   Options.soft_pending_compaction_bytes_limit: 68719476736
+2023/08/22-17:22:40.906443 2fcc   Options.hard_pending_compaction_bytes_limit: 274877906944
+2023/08/22-17:22:40.906445 2fcc       Options.rate_limit_delay_max_milliseconds: 100
+2023/08/22-17:22:40.906448 2fcc                Options.disable_auto_compactions: 0
+2023/08/22-17:22:40.906451 2fcc                        Options.compaction_style: kCompactionStyleLevel
+2023/08/22-17:22:40.906454 2fcc                          Options.compaction_pri: kByCompensatedSize
+2023/08/22-17:22:40.906458 2fcc Options.compaction_options_universal.size_ratio: 1
+2023/08/22-17:22:40.906461 2fcc Options.compaction_options_universal.min_merge_width: 2
+2023/08/22-17:22:40.906463 2fcc Options.compaction_options_universal.max_merge_width: 4294967295
+2023/08/22-17:22:40.906466 2fcc Options.compaction_options_universal.max_size_amplification_percent: 200
+2023/08/22-17:22:40.906468 2fcc Options.compaction_options_universal.compression_size_percent: -1
+2023/08/22-17:22:40.906471 2fcc Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2023/08/22-17:22:40.906474 2fcc Options.compaction_options_fifo.max_table_files_size: 1073741824
+2023/08/22-17:22:40.906476 2fcc Options.compaction_options_fifo.allow_compaction: 0
+2023/08/22-17:22:40.906479 2fcc Options.compaction_options_fifo.ttl: 0
+2023/08/22-17:22:40.906481 2fcc                   Options.table_properties_collectors: 
+2023/08/22-17:22:40.906484 2fcc                   Options.inplace_update_support: 0
+2023/08/22-17:22:40.906486 2fcc                 Options.inplace_update_num_locks: 10000
+2023/08/22-17:22:40.906488 2fcc               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2023/08/22-17:22:40.906491 2fcc   Options.memtable_huge_page_size: 0
+2023/08/22-17:22:40.906494 2fcc                           Options.bloom_locality: 0
+2023/08/22-17:22:40.906496 2fcc                    Options.max_successive_merges: 0
+2023/08/22-17:22:40.906498 2fcc                Options.optimize_filters_for_hits: 0
+2023/08/22-17:22:40.906501 2fcc                Options.paranoid_file_checks: 0
+2023/08/22-17:22:40.906503 2fcc                Options.force_consistency_checks: 0
+2023/08/22-17:22:40.906506 2fcc                Options.report_bg_io_stats: 0
+2023/08/22-17:22:40.906508 2fcc                               Options.ttl: 0
+2023/08/22-17:22:40.907394 2fcc [db\version_set.cc:3724] Recovered from manifest file:C:\apache-storm-2.5.0\storm_rocks/MANIFEST-000001 succeeded,manifest_file_number is 1, next_file_number is 3, last_sequence is 0, log_number is 0,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2023/08/22-17:22:40.907405 2fcc [db\version_set.cc:3732] Column family [default] (ID 0), log number is 0
+2023/08/22-17:22:40.907613 2fcc EVENT_LOG_v1 {"time_micros": 1692692560907579, "job": 1, "event": "recovery_started", "log_files": [3]}
+2023/08/22-17:22:40.907626 2fcc [db\db_impl_open.cc:578] Recovering log #3 mode 2
+2023/08/22-17:22:40.911604 2fcc [db\version_set.cc:3037] Creating manifest 5
+2023/08/22-17:22:40.919128 2fcc EVENT_LOG_v1 {"time_micros": 1692692560919119, "job": 1, "event": "recovery_finished"}
+2023/08/22-17:22:40.923806 2fcc [db\db_impl_open.cc:1314] DB pointer 000001960351BED0
+2023/08/22-17:22:40.924074 2ecc [WARN] [db\db_impl.cc:669] ------- DUMPING STATS -------
+2023/08/22-17:22:40.924085 2ecc [WARN] [db\db_impl.cc:670] 
+** DB Stats **
+Uptime(secs): 0.0 total, 0.0 interval
+Cumulative writes: 0 writes, 0 keys, 0 commit groups, 0.0 writes per commit group, ingest: 0.00 GB, 0.00 MB/s
+Cumulative WAL: 0 writes, 0 syncs, 0.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+Interval writes: 0 writes, 0 keys, 0 commit groups, 0.0 writes per commit group, ingest: 0.00 MB, 0.00 MB/s
+Interval WAL: 0 writes, 0 syncs, 0.00 writes per sync, written: 0.00 MB, 0.00 MB/s
+Interval stall: 00:00:0.000 H:M:S, 0.0 percent
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0         0         0    0.000       0      0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0         0         0    0.000       0      0
+Uptime(secs): 0.0 total, 0.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0         0         0    0.000       0      0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0         0         0    0.000       0      0
+Uptime(secs): 0.0 total, 0.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+2023/08/22-17:27:25.096654 6a4 [db\db_impl_compaction_flush.cc:1271] [default] Manual flush start.
+2023/08/22-17:27:25.096744 6a4 [db\db_impl_compaction_flush.cc:1282] [default] Manual flush finished, status: OK

@@ -1,0 +1,11 @@
+com\test\ImageBolt.class
+com\test\UploadMinIO.class
+com\test\MinIOBolt.class
+com\test\HashMapObj.class
+com\test\ImgTypeList.class
+com\test\memoryToJPG.class
+com\test\SocketConnection.class
+com\test\ImageTopology.class
+com\test\getProperties.class
+com\test\jniGetShm.class
+com\test\ImageSpout.class
